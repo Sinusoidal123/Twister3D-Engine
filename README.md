@@ -1,2 +1,2 @@
 # Twister3D-Engine
-Twister3D is a game engine passion project that I hope to work on whenever I want to train my C++.
+Twister3D is mostly just to serve as a training dummy for me when it comes to coding projects.
