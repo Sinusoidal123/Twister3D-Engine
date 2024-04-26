@@ -4,11 +4,11 @@
 #include <iostream>
 #include <string>
 
-GLFWwindow* makeWindow(const int width, const int height, const char* name) {
+GLFWwindow* makeWindow(const int width, const int height, const char* title) {
   glfwInit();
   
   glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
-  GLFWwindow* window = glfwCreateWindow(width, height, name, nullptr, nullptr);
+  GLFWwindow* window = glfwCreateWindow(width, height, title, nullptr, nullptr);
   
   return window;
 }
